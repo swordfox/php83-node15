@@ -2,8 +2,8 @@ FROM stayallive/php:8.3
  
 USER root
  
-# Install Node.js v15 (15.14.0 — final v15 release) from official binaries
-ARG NODE_VERSION=15.14.0
+# Install Node.js v16 (16.20.2 — final v16 release) from official binaries
+ARG NODE_VERSION=16.20.2
  
 RUN ARCH=$(dpkg --print-architecture) \
     && case "$ARCH" in \
