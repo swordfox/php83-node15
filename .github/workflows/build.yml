@@ -16,4 +16,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/php:8.3-node15
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/php:8.3-node16
